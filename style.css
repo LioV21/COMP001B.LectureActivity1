@@ -1,0 +1,32 @@
+/* Page Background */
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+/* Type Selector */
+p {
+    color: darkblue;
+}
+
+/* ID Selector */
+#unique-paragraph {
+    font-weight: bold;
+}
+
+/* Class Selector */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+/* Pseudo-class Selector */
+a.link:hover {
+    color: rgb(255, 0, 234);
+}
+
+/* Pseudo-element Selector */
+span.highlight::before {
+    content: ">>> ";
+    color: rgb(255, 0, 0);
+}
